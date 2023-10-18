@@ -1,0 +1,377 @@
+.main {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Header */
+
+.header {
+    max-width: inherit;
+    width: inherit;
+    padding: 6px 7% 6px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav {
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+
+.header li {
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header img {
+    display: flex;
+    align-items: center;
+}
+
+.headerLeftContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.headerLeftContainer img {
+    color: #FA793C;
+}
+
+.headerLeftContainer p {
+    color: #FA793C;
+    font-family: Pridi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Section 1 */
+
+.section1 {
+    max-width: inherit;
+    width: inherit;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-image: url("../img/cover.png");
+    height: 550px;
+}
+
+.textContainer {
+    padding: 101px 7%;
+}
+
+.section1 h2 {
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.section1 p {
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Section 2 */
+.section2 {
+    max-width: inherit;
+    width: inherit;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 130px 130px 0;
+}
+
+.section2-h2 {
+    display: block;
+    color: #000;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section2 p {
+    color: #000;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 16px 24px 16px;
+}
+
+.section2 h3 {
+    color: #000;
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 16px 8px;
+}
+
+.section2 h4 {
+    color: #000;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clock {
+    vertical-align: middle;
+    padding: 0 11px 16px 16px;
+}
+
+.cardImage {
+    width: 100%;
+}
+
+.cardsContainer {
+    display: flex;
+    column-gap: 20px;
+}
+
+.cardsContainer card {
+    border: 1px solid #000;
+}
+
+.metaContainer {
+    display: flex;
+}
+
+/* Section 3 */
+.section3 {
+    max-width: inherit;
+    width: inherit;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5% 0 0 9%;
+}
+
+.section3 h2 {
+    display: block;
+    color: #000;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 34px;
+}
+
+.section3_leftContainer {
+    width: 54%;
+    max-width: inherit;
+    position: absolute;
+    background-image: url("/img/photograph1.png");
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.section3_rightContainer {
+    width: inherit;
+    max-width: inherit;
+    position: absolute;
+    position: absolute;
+}
+
+.section3_rightContainer_img1 {
+    width: 26.5%;
+    max-width: inherit;
+    position: absolute;
+    background-image: url("/img/photograph2.png");
+    height: 190px;
+    background-repeat: no-repeat;
+    left: 55.5%;
+}
+
+.section3_rightContainer_img2 {
+    width: 26.5%;
+    max-width: inherit;
+    position: absolute;
+    background-image: url("/img/photograph3.png");
+    height: 190px;
+    background-repeat: no-repeat;
+    left: 55.5%;
+    top: 42%;
+}
+
+.imgContainer {
+    max-width: inherit;
+    width: inherit;
+    position: absolute;
+    display: flex;
+    height: 500px;
+}
+
+.imgContainer h2 {
+    z-index: 100;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 143px 5% 0 37px;
+}
+
+.imgContainer p {
+    z-index: 100;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 7% 0 37px;
+}
+
+.footer {
+    max-width: inherit;
+    width: inherit;
+    position: absolute;
+    left: 50%;
+    top: 180%;
+    transform: translateX(-50%); 
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer {
+    max-width: inherit;
+    width: inherit;
+    padding: 6px 130px 6px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    column-gap: 14px;
+}
+
+.footerContainer img {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    color: white;
+}
+
+.footerContainer p {
+    color: #FFF;
+    font-family: Pridi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .card3 {
+        display: none;
+    }
+
+    .section2 {
+        padding: 10% 3% 0 3%;
+    }
+
+    .footer {
+        top: 170%;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .card3 {
+        display: none;
+    }
+
+    .section2 {
+        padding: 5% 3% 0 3%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .card3 {
+        display: none;
+    }
+
+    .section2 {
+        padding: 5% 3% 0 0;
+    }
+
+    .section1 h2 {
+        color: #FFF;
+        font-family: Kanit;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .section1 p {
+        color: #FFF;
+        font-family: Kanit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .section3 {
+        padding: 0;
+    }
+
+    .section3_leftContainer {
+        width: 100%;
+    }
+
+    .section3_rightContainer_img1 {
+        width: 100%;
+        left: 0;
+        top: 85%;
+    }
+
+    .section3_rightContainer_img2 {
+        width: 100%;
+        left: 0;
+        top: 100%;
+    }
+}
